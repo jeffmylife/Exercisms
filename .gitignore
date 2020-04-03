@@ -1,6 +1,6 @@
 **/.exercism/
 **/.pytest_cache/
-**/__py_cache/
+**/__pycache__/
 **/.bloop/
 **/.metals/
 **/project/
