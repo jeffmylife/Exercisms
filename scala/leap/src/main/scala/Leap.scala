@@ -4,10 +4,10 @@ object Leap {
       if (year % 100 == 0) {
         year % 400 == 0
       }
-      else return true
+      else true
 
     }
-    else return false
+    else false
 
   }
 
