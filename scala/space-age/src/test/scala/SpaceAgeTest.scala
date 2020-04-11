@@ -20,22 +20,18 @@ class SpaceAgeTest extends FunSuite with Matchers {
   }
 
   test("age on Jupiter") {
-    pending
     SpaceAge.onJupiter(901876382) should be (2.41 +- 0.01)
   }
 
   test("age on Saturn") {
-    pending
     SpaceAge.onSaturn(3.0E9) should be (3.23 +- 0.01)
   }
 
   test("age on Uranus") {
-    pending
     SpaceAge.onUranus(3.210123456E9) should be (1.21 +- 0.01)
   }
 
   test("age on Neptune") {
-    pending
     SpaceAge.onNeptune(8.210123456E9) should be (1.58 +- 0.01)
   }
 }
