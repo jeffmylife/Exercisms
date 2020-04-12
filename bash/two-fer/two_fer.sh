@@ -14,15 +14,11 @@
 #   # ...
 #   # ...
 #
-  main () {
-    if [ -z "$1" ]
-    then
-       local you="you"
-    else
-      local you=$1
-    fi
-    echo "One for $you, one for me"
-  }
+
+main () {
+	echo "One for ${1:-you}, one for me."
+	return 0	
+}
 
   # call main with all of the positional arguments
   main "$@"
