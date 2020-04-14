@@ -2,6 +2,7 @@
 
 
 main () { 
+	echo "$1"
 	echo "Hello, ${1:-}"
 
 }
